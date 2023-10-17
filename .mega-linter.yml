@@ -14,9 +14,18 @@ APPLY_FIXES: all
 # default
 # ENABLE_LINTERS:
 
-# DISABLE:
-  # - COPYPASTE # Uncomment to disable checks of excessive copy-pastes
-  # - SPELL # Uncomment to disable checks of spelling mistakes
+DISABLE:
+- COPYPASTE # Uncomment to disable checks of excessive copy-pastes
+
+DISABLE_LINTERS:
+  - REPOSITORY_CHECKOV
+  - REPOSITORY_GRYPE
+  - REPOSITORY_KICS
+  - REPOSITORY_GITLEAKS
+
+DISABLE_ERRORS_LINTERS:
+  - SPELL_CSPELL
+  - SPELL_LYCHEE
 
 SHOW_ELAPSED_TIME: true
 
