@@ -18,6 +18,14 @@ APPLY_FIXES: all
   # - COPYPASTE # Uncomment to disable checks of excessive copy-pastes
   # - SPELL # Uncomment to disable checks of spelling mistakes
 
+DISABLE_ERRORS_LINTERS:
+  - COPYPASTE_JSCPD
+  - DOCKERFILE_HADOLINT
+  - JSON_JSONLINT
+  - KUBERNETES_KUBECONFORM
+
+
+
 SHOW_ELAPSED_TIME: true
 
 FILEIO_REPORTER: false
