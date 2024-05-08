@@ -32,7 +32,7 @@ API_REPORTER_DEBUG: true
 API_REPORTER_URL: https://logs-prod-012.grafana.net/loki/api/v1/push
 
 FILEIO_REPORTER: false
-LOG_LEVEL: DEBUG
+# LOG_LEVEL: DEBUG
 
 # Uncomment if you want MegaLinter to detect errors but not block CI to pass
 # DISABLE_ERRORS: true
