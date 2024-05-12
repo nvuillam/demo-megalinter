@@ -3,7 +3,7 @@
 # See all available variables at https://megalinter.io/latest/config-file/ and in
 # linters documentation
 
-# all, none, or list of linter keys
+# all, none, or list of linter keys !
 APPLY_FIXES: all
 
 # If you use ENABLE variable, all other languages/formats/tooling-formats will
